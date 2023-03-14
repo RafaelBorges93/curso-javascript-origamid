@@ -1,0 +1,42 @@
+.content {
+  display: grid;
+  justify-items: center;
+  width: 320px;
+  gap: 30px;
+  border: 2px solid #000;
+  background: #f0f0f0;
+  padding: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.button {
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Comic Sans MS", "Helvetica Neue", Helvetica, Arial;
+  cursor: pointer;
+}
+
+.iniciar {
+  background: green;
+}
+.pausar {
+  background: red;
+}
+.zerar {
+  background: blue;
+}
+
+.tempo {
+  font-size: 40px;
+  color: #4e4e4e;
+  font-family: "Comic Sans MS", "Helvetica Neue", Helvetica, Arial;
+}

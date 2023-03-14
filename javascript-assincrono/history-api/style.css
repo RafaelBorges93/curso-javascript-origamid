@@ -1,0 +1,33 @@
+h1,
+p {
+  animation: entrar 0.3s forwards;
+}
+
+body {
+  background: #f0a4a4;
+}
+
+.options {
+  display: flex;
+  gap: 30px;
+  color: #4a4a4a;
+  list-style: none;
+}
+.list a {
+  text-decoration: none;
+  border: 1px solid #4a4a4a;
+  padding: 0.5em;
+  background-color: #f0f0a0;
+  border-radius: 4px;
+}
+
+@keyframes entrar {
+  from {
+    opacity: 0;
+    transform: translate3d(-20px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
